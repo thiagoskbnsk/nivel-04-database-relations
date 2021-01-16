@@ -12,7 +12,7 @@ export default class AddCustomerIdToOrders1610806553230
       'orders',
       new TableColumn({
         name: 'customer_id',
-        type: 'id',
+        type: 'uuid',
         isNullable: true,
       }),
     );
